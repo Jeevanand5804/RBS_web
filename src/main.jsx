@@ -6,9 +6,9 @@ import { EmailProvider } from './EmailContext';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-   <EmailProvider>
   <React.StrictMode>
+    <EmailProvider>
     <App />
-  </React.StrictMode>,
   </EmailProvider>,
+  </React.StrictMode>,
 )
